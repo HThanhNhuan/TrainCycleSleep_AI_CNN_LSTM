@@ -1,0 +1,27 @@
+SLEEP STAGE CLASSIFICATION RESULTS
+==================================================
+
+Total training time: 7786.28s
+
+=== 📊 BẢNG SO SÁNH HIỆU SUẤT TỔNG THỂ ===
++----------------+-------------------+------------------+
+| Metric         |   CLEAN (5-class) |   FULL (6-class) |
++================+===================+==================+
+| Macro F1-Score |            0.9624 |           0.9635 |
++----------------+-------------------+------------------+
+| Cohen's Kappa  |            0.9547 |           0.9446 |
++----------------+-------------------+------------------+
+
+--- 📊 BÁO CÁO TÁC ĐỘNG CỦA DỮ LIỆU NHIỄU (LỚP 5) ---
+
+Tổng số mẫu trong tập FULL: 9486
+Số lượng mẫu nhiễu (lớp 5): 153 (1.61%)
+
+📌 Phân bố dự đoán của mô hình trên các mẫu nhiễu (khi nhãn thực tế là 5):
+  - Dự đoán là 'Noise': 153 mẫu (100.00%)
+
+--------------------------------------------------
+
+Chi tiết xem tại các file:
+- final_reports/clean/report_clean.txt
+- final_reports/full/report_full.txt
